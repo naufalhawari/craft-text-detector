@@ -17,6 +17,7 @@ __all__ = [
     "load_craftnet_model",
     "load_refinenet_model",
     "get_prediction",
+    "export_detected_region",
     "export_detected_regions",
     "export_extra_results",
     "empty_cuda_cache",
@@ -28,6 +29,7 @@ load_craftnet_model = craft_utils.load_craftnet_model
 load_refinenet_model = craft_utils.load_refinenet_model
 get_prediction = predict.get_prediction
 export_detected_regions = file_utils.export_detected_regions
+export_detected_region = file_utils.export_detected_region
 export_extra_results = file_utils.export_extra_results
 empty_cuda_cache = torch_utils.empty_cuda_cache
 
